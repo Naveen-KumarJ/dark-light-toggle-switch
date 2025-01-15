@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+    height: 50vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.toggle-container{
+    margin: 0 auto;
+    background: url(./assets/lightmode-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 6.2rem;
+    height: 2.8rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    transform: perspective(500px) rotateX(5deg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.slider{
+    background-color: white;
+    width: 40%;
+    height: 90%;
+    border-radius: 50%;
+    position: absolute;
+    top:0.15rem;
+    left: 0.15rem;
+    transition: transform 0.2s ease-in;
+    z-index: 1000;
+}
+.container h1{
+    font-size: 5rem;
+}
+
+.dark .slider{
+   transform: translateX(3.4rem);
+}
