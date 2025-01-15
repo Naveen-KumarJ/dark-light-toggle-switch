@@ -10,7 +10,7 @@ This project demonstrates how to create a toggle switch to switch between dark a
 
 ## Demo
 
-You can view the live demo of the toggle switch [here](https://your-github-pages-link-here).
+You can view the live demo of the toggle switch [here](https://naveen-kumarj.github.io/dark-light-toggle-switch/).
 
 ## Technologies Used
 
